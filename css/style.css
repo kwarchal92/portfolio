@@ -133,7 +133,7 @@ section{
 
 /* Section portfolio */
 
-#portfolio{
+.portfolio{
     background-color: rgb(214, 222, 253);
 }
 
@@ -146,6 +146,7 @@ section{
     flex-basis: 33%;
     height: 200px;   
     position: relative; 
+    padding: 2px;
 }
 
 .portfolio-wrapper .portfolio-item img{
@@ -173,4 +174,31 @@ section{
 
 .portfolio-wrapper .portfolio-item h3:hover{
     opacity: 0.75;
+}
+
+
+/* Contact section styles*/
+
+.contact form{
+    max-width: 700px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact input[type="text"],
+.contact input[type="email"]{
+    flex-basis: 47%;
+    margin-bottom: 30px;
+    padding:5px;
+
+}
+
+.contact textarea{
+    flex-basis: 100%;
+    margin-bottom: 15px;
+    height:250px;
+    padding: 5px;
+
 }
